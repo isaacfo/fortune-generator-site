@@ -1,0 +1,44 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+body {
+    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+body > * {
+    /* outline: 1px solid fuchsia; */
+}
+
+
+
+.quoteDisplay {
+    height: 30px;
+    font-size: 28px;
+}
+
+.quoteDisplay2 {
+    height: 30px;
+    font-size: 28px;
+}
+
+.imageframe {
+    height: 50px;
+    width: 50px;
+}
+
+.imageframe img {
+    width: 100%;
+
+}
