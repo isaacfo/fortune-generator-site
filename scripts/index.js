@@ -67,4 +67,23 @@ clickerElement.addEventListener('click', function() {
 
 
 // Pull text from an array of text
-// to write to pag
+// to write to page
+
+function createFortuneButton() {
+    const theButton = document.createElement('button');
+    theButton.textContent = 'Click here for a fortune';
+    theButton.setAttribute('data-trigger', '');
+
+    return theButton;
+}
+
+function createButtonContainer() {
+    const buttonContainer = document.createElement('div');
+    buttonContainer.classList.add('buttonCotainer');
+    
+    buttonContainer.appendChild(createFortunebutton());
+
+
+
+    return buttonContainer;
+}
